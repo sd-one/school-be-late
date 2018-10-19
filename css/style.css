@@ -88,16 +88,28 @@ iframe {
     width: 65%;
     height: 425px;
     float: right;
+    border:0;
     }
-.map-placeholder {
+
+.location__map-placeholder {
     width: 35%;
     height: 425px;
     background-color: #f5d76e;
     float: left;
     }
-.info {
+.location__info {
     width: 80%;
     height: 302px;
     position: relative;
     padding: 59px 50px 64px 50px;
+}
+
+.location__h4-line1 {
+padding-right: 27px
+}
+.location__h4-line2{
+padding-right: 42px
+}
+.location__h4-line3{
+padding-right: 29px
 }

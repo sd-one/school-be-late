@@ -69,7 +69,7 @@ nav {
 .Enjoy-of-a-fresh-new-approach-to-coffee-Proin-gravida-nibh-vel {
     position: absolute;
     top: 367px;
-    left: 166px;
+    left: 169px;
     width: 436px;
     height: 39px;
     font-family: Lato;
@@ -84,6 +84,9 @@ nav {
 }
 
 .Btn-bg {
+    position: absolute;
+    top: 444px;
+    left: 169px;
     width: 185px;
     height: 54px;
     border: solid 2px #ffffff;

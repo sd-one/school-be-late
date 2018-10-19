@@ -144,30 +144,50 @@ iframe {
     height: 425px;
     background-color: #f5d76e;
     float: left;
-    }
+}
 .info {
     width: 80%;
     height: 302px;
     position: relative;
     padding: 59px 50px 64px 50px;
-    }
+}
 .flex {
     display: flex;
     flex-wrap: wrap;
-    }
+}
 .flex > * {
-    flex: 1 1 250px;
+    flex: 1 1 auto;
     margin: 10px;
-    }
+}
 .title__menu h1, 
-.product__content h1 {
+[class ^="product__content__"] h1 {
 	padding-top: 69px; 
 	text-align:center;
-	}
-.product__content {
-	
+	vertical-align: middle;
+}
+[class ^="product__content__"] {
 	border: 1px black solid;
-}	
+	background-size: auto;
+	width: 396px;
+	height: 294px;
+	background-position: center;
+	padding-left:15px;
+	padding-right: 15px;
+	
+}
+.title__menu {
+    padding-bottom: 59px;	
+}
+.product__content__1 {
+	background-image: url("../img/menu-img/cup-coffee.png");
+}
+.product__content__2 {
+	background-image: url("../img/menu-img/cup-tea.png");
+}
+.product__content__3 {
+	background-image: url("../img/menu-img/dessert.png");
+	
+}
 .content__menu {
 	padding-top: 69px;
 	padding-bottom: 150px;

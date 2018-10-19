@@ -150,4 +150,25 @@ iframe {
     height: 302px;
     position: relative;
     padding: 59px 50px 64px 50px;
+    }
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    }
+.flex > * {
+    flex: 1 1 250px;
+    margin: 10px;
+    }
+.title__menu h1, 
+.product__content h1 {
+	padding-top: 69px; 
+	text-align:center;
+	}
+.product__content {
+	
+	border: 1px black solid;
+}	
+.content__menu {
+	padding-top: 69px;
+	padding-bottom: 150px;
 }

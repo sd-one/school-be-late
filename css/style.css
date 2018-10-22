@@ -3,26 +3,29 @@ footer {
     height: 308px;
     background-color: #39312f;
 }
+
 .footer__social {
     width: 100%;
     padding-top: 5%;
     display: flex;
     justify-content: center;    
 }
+
 .footer__facebook {
     width: 14px;
     height: 26px;
     object-fit: contain;
     margin-top: -3px;
 }
+
 .footer__twitter {
     width: 27px;
     height: 22px;
     object-fit: contain;
     padding-left:23px;
-    padding-top: 2.5px;
-    
+    padding-top: 2.5px;   
 }
+
 .footer__instagram {
     width: 25px;
     height: 24px;
@@ -30,6 +33,7 @@ footer {
     padding-left:22px;
     padding-top: 1px;
 }
+
 .footer__address {
     font-family: Lato;
     font-size: 16px;
@@ -40,11 +44,13 @@ footer {
     letter-spacing: 0.4px;
     text-align: center;
     color: #ffffff;
-  }
-.location{
+}
+
+.location {
     margin-top: 50px;
     margin-bottom: 425px;
 }
+
 h2 {
     font-family: 'Playfair Display', serif;
     font-size: 32px;
@@ -55,7 +61,7 @@ h2 {
     color: var(--black);
     padding-bottom:60px;
     margin: 0;
-    }
+}
 
 h3 {
     height: 16px;
@@ -67,7 +73,7 @@ h3 {
     color: #28211f;
     color: var(--black);
     margin: 0 0 23px 0;
-    }
+}
 
 h4 {
     font-family: 'Lato', sans-serif;
@@ -78,25 +84,26 @@ h4 {
     color: #28211f;
     color: var(--black);
     margin: 0 0 19px 0;
-    }
+}
 
 span {
     font-weight: 600;
-    }
+}
 
 iframe {
     width: 65%;
     height: 425px;
     float: right;
     border:0;
-    }
+}
 
 .location__map-placeholder {
     width: 35%;
     height: 425px;
     background-color: #f5d76e;
     float: left;
-    }
+}
+
 .location__info {
     width: 80%;
     height: 302px;
@@ -105,11 +112,13 @@ iframe {
 }
 
 .location__h4-line1 {
-padding-right: 27px
+    padding-right: 27px;
 }
-.location__h4-line2{
-padding-right: 42px
+
+.location__h4-line2 {
+    padding-right: 42px;
 }
-.location__h4-line3{
-padding-right: 29px
+
+.location__h4-line3 {
+    padding-right: 29px;
 }

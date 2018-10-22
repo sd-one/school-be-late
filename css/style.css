@@ -71,7 +71,6 @@ footer {
     object-fit: contain;
     padding-left:23px;
     padding-top: 2.5px;
-    
 }
 .footer__instagram {
     width: 25px;
@@ -90,7 +89,8 @@ footer {
     letter-spacing: 0.4px;
     text-align: center;
     color: #ffffff;
-  }
+    margin-top: 3%;
+}
 .location{
     margin-top: 50px;
     margin-bottom: 425px;

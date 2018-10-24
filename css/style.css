@@ -49,35 +49,42 @@ nav {
    background-size: 100%;
    background-repeat: no-repeat;
 }
+
 .see-menu, .pre-text{
    color: #fff;
    font-size: 16px;
 }
+
 .see-menu, .pre-text, .big-baner__title{
    margin-left: 166px;
    line-height: 24px;
 }
+
 .see-menu {
    padding: 5px;
    border: 2px solid #fff;
    float:left;
 }
+
 .see-menu:hover {
    padding: 5px;
    border: 2px solid #f5d76e;
    color: #f5d76e;
    float:left;
 }
+
 .big-baner__title{
    margin-top: 201px;
    color: #f5d76e;
    font-size: 48px;
    margin-bottom: 24px;
 }
+
 .pre-text{
    width: 436px;
    margin-bottom: 24px;
 }
+
 .coffee-never {
     display: flex;
     justify-content: center;
@@ -92,6 +99,7 @@ nav {
     letter-spacing: 0.8px;
     color: #2f2f2f;
 }
+
 .morbi-accumsan {
     align-items: center;
     width: 755px;
@@ -106,8 +114,6 @@ nav {
     text-align: center;
     color: var(--black);
 }
-
-Message Input
 
 .footer {
     width: 100%;

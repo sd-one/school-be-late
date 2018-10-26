@@ -42,10 +42,77 @@ nav {
     color: #f5d76e;
 }
 
-.content__big-banner {
-width: 100%;
-height: 30%;
-background-color: #39312f;
+.header__big-baner {
+   width: inherit;
+   height: 700px;
+   background-image: url('../img/coffee-shop.jpg');
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+
+.see-menu, .pre-text {
+   color: #fff;
+   font-size: 16px;
+}
+
+.see-menu, .pre-text, .big-baner__title {
+   margin-left: 166px;
+   line-height: 24px;
+}
+
+.see-menu {
+   padding: 5px;
+   border: 2px solid #fff;
+   float:left;
+}
+
+.see-menu:hover {
+   padding: 5px;
+   border: 2px solid #f5d76e;
+   color: #f5d76e;
+   float:left;
+}
+
+.big-baner__title {
+   margin-top: 201px;
+   color: #f5d76e;
+   font-size: 48px;
+   margin-bottom: 24px;
+}
+
+.pre-text {
+   width: 436px;
+   margin-bottom: 24px;
+}
+
+.coffee-never {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33px;
+    font-family: PlayfairDisplay;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.75;
+    letter-spacing: 0.8px;
+    color: #2f2f2f;
+}
+
+.morbi-accumsan {
+    align-items: center;
+    width: 755px;
+    margin: 32px auto;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--black);
 }
 
 .footer {

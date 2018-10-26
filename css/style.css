@@ -42,7 +42,7 @@ nav {
     color: #f5d76e;
 }
 
-.header__big-baner{
+.header__big-baner {
    width: inherit;
    height: 700px;
    background-image: url('../img/coffee-shop.jpg');
@@ -50,12 +50,12 @@ nav {
    background-repeat: no-repeat;
 }
 
-.see-menu, .pre-text{
+.see-menu, .pre-text {
    color: #fff;
    font-size: 16px;
 }
 
-.see-menu, .pre-text, .big-baner__title{
+.see-menu, .pre-text, .big-baner__title {
    margin-left: 166px;
    line-height: 24px;
 }
@@ -73,14 +73,14 @@ nav {
    float:left;
 }
 
-.big-baner__title{
+.big-baner__title {
    margin-top: 201px;
    color: #f5d76e;
    font-size: 48px;
    margin-bottom: 24px;
 }
 
-.pre-text{
+.pre-text {
    width: 436px;
    margin-bottom: 24px;
 }
@@ -120,18 +120,21 @@ nav {
     height: 308px;
     background-color: #39312f;
 }
+
 .footer__social {
     width: 100%;
     padding-top: 5%;
     display: flex;
     justify-content: center;    
 }
+
 .footer__facebook {
     width: 14px;
     height: 26px;
     object-fit: contain;
     margin-top: -3px;
 }
+
 .footer__twitter {
     width: 27px;
     height: 22px;
@@ -140,6 +143,7 @@ nav {
     padding-top: 2.5px;
     
 }
+
 .footer__instagram {
     width: 25px;
     height: 24px;
@@ -147,6 +151,7 @@ nav {
     padding-left:22px;
     padding-top: 1px;
 }
+
 .footer__address {
     font-family: Lato;
     font-size: 16px;
@@ -158,10 +163,12 @@ nav {
     text-align: center;
     color: #ffffff;
   }
-.location{
+
+.location {
     margin-top: 50px;
     margin-bottom: 425px;
 }
+
 h2 {
     font-family: 'Playfair Display', serif;
     font-size: 32px;

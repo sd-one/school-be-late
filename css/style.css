@@ -8,43 +8,54 @@ header {
     max-width: 100%;
 }
 
-.left-nav__logo {
-    margin-top: 30px;
+.logo {
+    width: 12vw;
+    height: 10vw;
+    margin-top: 2.4vw;
     z-index: 100;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    cursor: pointer;
 }
 
 nav {
-    height:100px;
+    height: 8vw;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color:rgba(0,0,0,0.35);
 }
 
+.left-nav {
+     margin-left: 7vw;
+} 
+
 .left-nav li {
     float:left;
-    margin-right: 20px;
+    margin-left: 1.6vw;
 }
+
 
 .right-nav li {
     float:left;
-    margin-left: 16px;
+    margin-right: 1.6vw;
 }
 
 .left-nav li a, .right-nav li a {
     font-weight: bold;
     color: #fff;
-    font-size: 16px;
+    font-size: 1.4vw;
     text-decoration: none;
+    line-height: 28px;
 }
 
-.left-nav li a:hover,#right-nav li a:hover {
+.left-nav li a:hover,.right-nav li a:hover {
     color: #f5d76e;
 }
 
 .header__big-baner {
    width: inherit;
-   height: 700px;
+   height: 53vw;
    background-image: url('../img/coffee-shop.jpg');
    background-size: 100%;
    background-repeat: no-repeat;
@@ -61,20 +72,21 @@ nav {
 }
 
 .see-menu {
-   padding: 5px;
+   padding: 1vw 4vw;
    border: 2px solid #fff;
    float:left;
 }
 
 .see-menu:hover {
-   padding: 5px;
+   padding: 1vw 4vw;
    border: 2px solid #f5d76e;
    color: #f5d76e;
    float:left;
+   cursor: pointer;
 }
 
 .big-baner__title {
-   margin-top: 201px;
+   margin-top: 18vw;
    color: #f5d76e;
    font-size: 48px;
    margin-bottom: 24px;

@@ -109,7 +109,7 @@ background-color: #39312f;
     margin-top: 3%;
 }
 
-.location{
+.location{Playfair Display'
     margin-top: 50px;
     margin-bottom: 425px;
 }
@@ -174,7 +174,7 @@ iframe {
 .Testimonials {
     width: 241px;
     height: 24px;
-    font-family: PlayfairDisplay;
+    font-family: 'Playfair Display';
     font-size: 32px;
     font-weight: bold;
     font-style: normal;

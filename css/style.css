@@ -172,22 +172,20 @@ iframe {
 
 /*Sergey Berezovsky style*/
 .Testimonials {
-    width: 241px;
-    height: 24px;
-    font-family: 'Playfair Display';
+    font-family: 'Playfair Display', serif;
     font-size: 32px;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
-    line-height: 0.75;
+    line-height: 24px;
     letter-spacing: normal;
-    text-align: left;
-    color: var(--black);
+    color: black;
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 .realisticshots-coffee-photo {
-    width: 821px;
-    height: 425px;
+    width: 100%;
 }
 /*end Sergey Berezovsky style*/
 

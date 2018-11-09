@@ -384,23 +384,136 @@ header {
     padding-bottom: 15px;
 }
 
-/*Sergey Berezovsky style*/
-.Testimonials {
-    width: 241px;
-    height: 24px;
+.open-voice {
+    width: 111px;
+    height: 50px;
+    opacity: 0.09;
     font-family: PlayfairDisplay;
+    font-size: 90px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.23;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    z-index: 999;
+    padding-top: 3%; 
+    right: 10px;
+    margin-right: 23%;
+}
+
+.close-voice{
+      width: 77px;
+    height: 57px;
+    opacity: 0.09;
+    font-family: PlayfairDisplay;
+    font-size: 200px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.11;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    padding-top: 32%; 
+    right: 10px;
+    margin-right: 4%;
+}
+
+.slider-nav {
+    width: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.slaider-nav-naw {
+    display: block;
+    border-radius: 50%;
+    width: 11px;
+    height: 11px;
+    border: solid 1px #ececec;
+    cursor: pointer;
+}
+
+.slaider-nav {
+    display: block;
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+    border: solid 1px #ececec;
+    background-color: #ececec;
+    cursor: pointer;
+  
+}
+
+/*Sergey Berezovsky style*/
+.testimonials {
+    height: 530px;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 1%;
+}
+
+.testimonials__title
+{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 60px;
     font-size: 32px;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
     line-height: 0.75;
+    font-family: PlayfairDisplay;
     letter-spacing: normal;
-    text-align: left;
-    color: var(--black);
 }
 
-.realisticshots-coffee-photo {
-    width: 821px;
+.slider_wrapper {
+    margin: 0 auto;
+    max-width: 100%;
+    background: url('../img/realisticshots-coffee-photo.jpg') no-repeat;
     height: 425px;
+    z-index: -1;  
 }
-/*end Sergey Berezovsky style*/
+
+.author {
+    width: 256px;
+    margin-left: 73%;
+    padding-top: 8%;
+}
+
+.author__img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-bottom: 8px;
+}
+
+.author__name, .author p {
+    text-align: center;
+}
+
+.author__name{
+    color: #f5d76e;
+    font-family: PlayfairDisplay;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    margin-bottom: 8px;
+}
+
+.author p {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.31;
+    letter-spacing: normal;
+    color: #fff;
+    margin-bottom: 20px;
+}

@@ -99,6 +99,14 @@ header {
    margin-bottom: 2.4vw;
 }
 
+.hr {
+    height: 39px;
+    width: 39px;
+    margin: 76px auto;
+    border: 0;
+    background: url('../img/icon-coffee.png') no-repeat;
+}
+
 .coffee-never {
     max-width: 1300px;
     margin: 0 auto;

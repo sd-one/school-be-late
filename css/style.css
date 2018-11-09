@@ -522,6 +522,48 @@ header {
 }
 
 
+@media screen and (max-width: 740px) {
+    
+    .menu__items {
+        flex-direction: column;
+    }
+
+    .menu__item-1, .menu__item-2, .menu__item-3{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .location {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .location__iframe {
+        float: none;
+        width: 98%;
+        margin: 0 auto;
+        padding-left: 1%;
+    }
+
+    .location__map-placeholder {
+        width: 98%;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .footer__address {
+        padding-bottom: 30px;
+    }
+
+    .footer__social {
+        padding-top: 5%;
+    }
+}
+
 @media screen and (min-width: 1300px) {
       
     .header {
@@ -535,6 +577,14 @@ header {
 
     .header__big-baner {
         max-height: 700px;
+    }
+
+    .footer__social {
+        padding-top: 90px;
+    }
+
+    .footer__address {
+        margin-top: 40px;
     }
 }
 
@@ -633,4 +683,26 @@ header {
         text-align: center;
     }
 
+    .menu__item-1, .menu__item-2, .menu__item-3{
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    .coffee-never p {
+        text-align: none;
+        width: 98%;
+    }
+
+    .coffee-never__title {
+        margin-top: 40px;
+        font-size: 38px;
+    }
+
+    .hr {
+        height: 39px;
+        width: 39px;
+        margin: 40px auto;
+        border: 0;
+        background: url('../img/icon-coffee.png') no-repeat;
+    }
 }

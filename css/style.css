@@ -5,21 +5,23 @@
 }
 
 header {
-    max-width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 .logo {
-    width: 12vw;
-    height: 10vw;
-    margin-top: 2.4vw;
+    width: 12%;
+    height: auto;
+    margin-top: 30px;
+    -moz-margin-top: 30%;
     z-index: 100;
-    margin-left: 3vw;
-    margin-right: 3vw;
+    margin-left: 3%;
+    margin-right: 3%;
     cursor: pointer;
 }
 
 .header__menu {
-    height: 8vw;
+    height: 14%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,24 +29,24 @@ header {
 }
 
 .left-nav {
-     margin-left: 7vw;
+    margin-left: 7.600%;
 } 
 
 .left-nav li {
     float: left;
-    margin-left: 1.6vw;
+    margin-left: 20px;
 }
-
 
 .right-nav li {
     float: left;
-    margin-right: 1.6vw;
+    margin-right: 20px;
 }
 
 .left-nav li a, .right-nav li a {
     font-weight: bold;
+    font-family: PlayfairDisplay;
     color: #fff;
-    font-size: 1.4vw;
+    font-size: 18px;
     text-decoration: none;
     line-height: 28px;
 }
@@ -54,49 +56,50 @@ header {
 }
 
 .header__big-baner {
-   width: inherit;
-   height: 53vw;
-   background-image: url('../img/coffee-shop.jpg');
-   background-size: 100%;
-   background-repeat: no-repeat;
+    height: 55vw;
+    background-image: url('../img/coffee-shop.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .see-menu, .pre-text {
-   color: #fff;
-   font-size: 16px;
+    color: #fff;
+    font-size: 16px;
+    font-family: Lato;
 }
 
 .see-menu, .pre-text, .big-baner__title {
-   margin-left: 12.6vw;
-   line-height: 2vw;
+    margin-left: 14%;
+    line-height: 27px;
 }
 
 .see-menu {
-   padding: 1vw 4.2vw;
-   border: 2px solid #fff;
-   float: left;
+    padding: 11px 50px;
+    border: 2px solid #fff;
+    float: left;
+    margin-bottom: 15%;
 }
 
 .see-menu:hover {
-   padding: 1vw 4.2vw;
-   border: 2px solid #f5d76e;
-   color: #f5d76e;
-   float: left;
-   cursor: pointer;
+    border: 2px solid #f5d76e;
+    color: #f5d76e;
+    float: left;
+    cursor: pointer;
 }
 
 .big-baner__title {
-   width: 38vw;
-   margin-top: 16vw;
-   color: #f5d76e;
-   font-size: 4vw;
-   margin-bottom: 2vw;
+    width: 42%;
+    margin-top: 16%;
+    color: #f5d76e;
+    font-size: 3rem;
+    margin-bottom: 3%;
+    font-family: PlayfairDisplay;
 }
 
 .pre-text {
-   width: 36vw;
-   font-size: 1.3vw; 
-   margin-bottom: 2.4vw;
+    width: 436px;
+    font-size: 18px; 
+    margin-bottom: 30px;
 }
 
 .hr {
@@ -516,4 +519,118 @@ header {
     letter-spacing: normal;
     color: #fff;
     margin-bottom: 20px;
+}
+
+
+@media screen and (min-width: 1300px) {
+      
+    .header {
+        max-width: 1300px;
+        margin: 15px auto;
+    }
+
+    .header__menu {
+        max-height: 100px;
+    }
+
+    .header__big-baner {
+        max-height: 700px;
+    }
+}
+
+@media screen and (max-width: 1017px) {
+    .big-baner__title {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 632px) {
+    .big-baner__title {
+        width: 80%;
+        font-size: 2.5rem;
+    }
+
+    .pre-text{
+        line-height: 22px;
+    }
+    
+    .logo {
+        margin-top: 15px;
+    }
+
+    .see-menu {
+        margin-left: 15%;
+        margin-top: 5px;
+        margin-bottom: 0;
+        padding: 2px 15px;
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    .header__menu {
+        max-height: 12%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0,0,0,0.35);
+    }
+    
+    .left-nav li a, .right-nav li a {
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .logo {
+        width: 16%;
+        height: auto;
+        margin-top: 3%;
+    }
+
+    .pre-text {
+        width: 20%;
+    }
+
+    .left-nav li {
+        margin-left: 6px;
+    }
+
+    .right-nav li {
+        margin-right: 6px;
+    }
+    .header__big-baner {
+        background-image: url('../img/coffee-shop.jpg') no-repeat center center;
+        height: 170px;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .big-baner__title {
+        width: 90%;
+        margin: 10% auto 3% auto;
+        text-align: center;
+        font-size: 1.5rem;
+    }   
+
+    .see-menu, .pre-text {
+        font-size: 12px;
+    }
+
+    .pre-text {
+        width: 90%;  
+        margin: 0 auto;
+        text-align: center;
+        line-height: 12px;
+    }
+
+    .see-menu {
+        margin-left: 35%;
+        margin-top: 10px;
+        margin-bottom: 0;
+        padding: 2px 15px;
+        text-align: center;
+    }
+
 }

@@ -5,15 +5,13 @@
 }
 
 header {
-    max-width: 1300px;
+    width: 100%;
     margin: 0 auto;
 }
 
 .logo {
     width: 12%;
-    height: auto;
     margin-top: 30px;
-    -moz-margin-top: 30%;
     z-index: 100;
     margin-left: 3%;
     margin-right: 3%;
@@ -76,7 +74,7 @@ header {
 .see-menu {
     padding: 11px 50px;
     border: 2px solid #fff;
-    float: left;
+    display: inline-block;
     margin-bottom: 15%;
 }
 
@@ -88,10 +86,9 @@ header {
 }
 
 .big-baner__title {
-    width: 42%;
-    margin-top: 16%;
+    margin-top: 17%;
     color: #f5d76e;
-    font-size: 3rem;
+    font-size: 3.1em;
     margin-bottom: 3%;
     font-family: PlayfairDisplay;
 }
@@ -111,7 +108,7 @@ header {
 }
 
 .coffee-never {
-    max-width: 1300px;
+    width: 96%;
     margin: 0 auto;
     justify-content: center;
     flex-direction: column;
@@ -156,13 +153,14 @@ header {
 .menu {
     display: flex;
     flex-direction: column;
-    max-width: 1300px;
+    width: 96%;
     margin: 0 auto; 
 }
 
 .menu__items {
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-between;
+    margin: 0 -1%; 
 }
 
 .menu__title {
@@ -380,11 +378,11 @@ header {
     padding-right: 29px;
 }
 
-.location__wrapper{
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 15px;
-    padding-bottom: 15px;
+.location__wrapper {
+   margin-top: 15px;
+   padding-bottom: 15px;
+   width: 96%;
+   margin: 0 auto;
 }
 
 * {
@@ -394,7 +392,7 @@ header {
 }
 
 .testimonial {
-    max-width: 1270px;
+    width: 96%;
     margin: 0 auto;
 }
 
@@ -406,7 +404,7 @@ header {
 
 .testimonial__img {
     max-width: 822px;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .testimonial__title {
@@ -541,7 +539,6 @@ header {
         }
 }
 
-
 @media screen and (max-width: 740px) {
     
     .menu__items {
@@ -584,36 +581,6 @@ header {
     }
 }
 
-@media screen and (min-width: 1300px) {
-      
-    .header {
-        max-width: 1300px;
-        margin: 15px auto;
-    }
-
-    .header__menu {
-        max-height: 100px;
-    }
-
-    .header__big-baner {
-        max-height: 700px;
-    }
-
-    .footer__social {
-        padding-top: 90px;
-    }
-
-    .footer__address {
-        margin-top: 40px;
-    }
-}
-
-@media screen and (max-width: 1017px) {
-    .big-baner__title {
-        width: 80%;
-    }
-}
-
 @media screen and (max-width: 632px) {
     .big-baner__title {
         width: 80%;
@@ -636,7 +603,6 @@ header {
         text-align: center;
     }
 }
-
 
 @media (min-width: 320px) and (max-width: 480px) {
     
@@ -724,5 +690,42 @@ header {
         margin: 40px auto;
         border: 0;
         background: url('../img/icon-coffee.png') no-repeat;
+    }
+}
+
+@media (min-width: 1280px) {
+    .testimonial {
+        max-width: 1270px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .left-nav li a, .right-nav li a {
+        font-size: 1.7rem;
+    }
+
+    .logo {
+        width: 12%;
+        margin-top: 50px;
+    }
+
+    .big-baner__title {
+        font-size: 4.6em;
+        margin-top: 17%;
+    }
+
+    .pre-text {
+        width: 630px;
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    .see-menu, .pre-text, .big-baner__title {
+        line-height: 35px;
+    }
+    .see-menu {
+        font-size: 1.7em;
+    }
+    .see-menu {
+        padding: 15px 60px;
     }
 }

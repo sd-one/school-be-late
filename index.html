@@ -107,23 +107,49 @@
             <p class="menu__buttom">see fell menu</p>
         </div> 
         <hr class="hr"/>
-        <div class="testimonials">
-            <h2 class="testimonials__title">Testimonials</h2>
-            <div class="slider_wrapper">
-                <div class="open-voice">.01</div>
-                <div class="close-voice">"</div>
-                <div class="author">
-                    <img src="img/brendan-lim.png" class="author__img">
-                    <h3 class="author__name">Chris Parker</h3>
-                    <p>Nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris accumsan.</p>
-                    <div class="slider-nav">
-                        <span class="slaider-nav-naw"></span>
-                        <span class="slaider-nav"></span>
-                        <span class="slaider-nav"></span>
-                    </div>
+        <div class="testimonial">
+            <h3 class="testimonial__title">Testimonial</h3>
+            <div class="testimonial__reviews-conteiner">
+                <img class="testimonial__img" src="img/realisticshots-coffee-photo.png" alt="testimonial photo"/>
+                <div class="reviews-conteiner__slider">
+                        <div class="slider fade">
+                            <span class="slider__review-number">.01</span>
+                            <div class="review">
+                                <img class="review__photo" src="img/brendan-lim.png" alt="review photo"/>
+                                <h4 class="review__title">Chris Parker</h4>
+                                <div class="review__message">
+                                    <p>Nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris accumsan.</p>
+                                </div>    
+                            </div> 
+                        </div>
+                        <div class="slider fade">
+                            <span class="slider__review-number">.02</span>
+                            <div class="review">
+                                <img class="review__photo" src="img/bruno-bergher.png" alt="review photo"/>
+                                <h4 class="review__title">Chris Smith</h4>
+                                <div class="review__message">
+                                    <p>Nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris accumsan.</p>
+                                </div>    
+                            </div> 
+                        </div>
+                        <div class="slider fade">
+                            <span class="slider__review-number">.03</span>
+                            <div class="review">
+                                <img class="review__photo" src="img/brendan-lim.png" alt="review photo"/>
+                                <h4 class="review__title">John Parker</h4>
+                                <div class="review__message">
+                                    <p>Nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris accumsan.</p>
+                                </div>    
+                            </div> 
+                        </div>
+                <div class="slider__navigation">
+                    <span class="navigation__button" onclick="currentSlide(1)"></span>
+                    <span class="navigation__button" onclick="currentSlide(2)"></span>
+                    <span class="navigation__button" onclick="currentSlide(3)"></span>
                 </div>  
-            </div>
-        </div>
+            </div>    
+        </div>    
+        </div> 
         <hr class="hr"/>
         <div class="location__wrapper">
             <div class="location">
@@ -164,5 +190,29 @@
                 <p>St. Thomas street 21st, Suite 110, Santa Monica, California</p>
             </div>
         </footer>
+        <script>     
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("slider");
+            var dots = document.getElementsByClassName("navigation__button");
+            if (n > slides.length) {slideIndex = 1} 
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none"; 
+            }
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block"; 
+            dots[slideIndex-1].className += " active";
+            }
+    </script>
     </body>
 </html>
